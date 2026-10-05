@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model files (large, should be downloaded separately)
+Qwen3-4B/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Experiment results / data
+validation_*.json
+*.json
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Torch / CUDA
+triton/
+*.cubin
+
+# MTI original (keep only modified run_hf.py)
+# MTI_official/
+
+# Misc
+2.0

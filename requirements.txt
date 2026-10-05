@@ -1,0 +1,12 @@
+# ZSGI (Zero-Cost Step-Guided Intervention) Dependencies
+# NOTE: torch requires nightly build with CUDA 12.8 for Blackwell (sm_120) GPUs.
+# Install torch separately:
+#   pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu128
+
+transformers==4.56.1
+accelerate==1.10.1
+bitsandbytes==0.50.2
+datasets==2.18.0
+numpy==1.26.4
+pyarrow==15.0.2
+fsspec==2026.6.0
